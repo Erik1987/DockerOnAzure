@@ -30,4 +30,13 @@ $ docker image tag imagename:[version] registryname.azurecr.io/imagename:[versio
 
 // push to registry
 
-$ docker push registryname.azurecr.io/imagename:[version]  
+$ docker push registryname.azurecr.io/imagename:[version] 
+
+// check this: https://dev.to/amilkardev/denied-requested-access-to-the-resource-is-denied-4ie1
+
+// set a container instance using port mapping
+
+// check logs of a running container
+
+$ az container logs --resource-group myResourceGroup --name mycontainer
+$ az container attach --resource-group myResourceGroup --name mycontainer
